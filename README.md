@@ -28,6 +28,7 @@ The dataset contains customer sales transactions with fields such as:
 - Quantity
 - Price
 - Total Sales
+  
 
 ### Dataset Summary
 
@@ -40,6 +41,7 @@ The dataset contains customer sales transactions with fields such as:
 | Analysis Tools | Python, Pandas, Matplotlib, SQL |
 
 ---
+
 
 # 🛠️ Tools & Technologies
 
