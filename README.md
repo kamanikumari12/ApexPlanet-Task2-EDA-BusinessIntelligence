@@ -1,38 +1,214 @@
-# ApexPlanet-Task2-EDA-BusinessIntelligence
-Exploratory Data Analysis, SQL Queries, and Dashboard Mock-up for Task 2.
-# Exploratory Data Analysis (EDA) & Business Intelligence — Task 2
+# 📊 Exploratory Data Analysis (EDA) & Business Intelligence
 
-This repository contains the complete solution for **Task 2: Exploratory Data Analysis (EDA) & Business Intelligence**. The analysis is performed on a retail dataset containing 1,000 transaction records spanning 2025.
-
----
-
-## 📌 Project Overview
-
-* **Objective:** Uncover key spending patterns, regional trends, and product performance using Python and SQL to drive business growth.
-* **Dataset:** 1,000 orders across 8 cities and 5 product categories (`ApexPlanet_DataAnalytics_Dataset.xlsx`).
-* **Total Revenue Analyzed:** ₹139,399,439.65
-* **Average Order Value (AOV):** ₹139,399.44
+## 👤 Author
+**Kamani Kumari**
 
 ---
 
-## 📊 Key Findings & Insights
+# 📌 Project Objective
 
-* **Category Performance:** **Electronics** is the dominant revenue generator, contributing **₹50.78M** (~36.4% of total revenue). **Education** ranks second at **₹25.03M**.
-* **Top Cities:** Revenue is evenly distributed across major metro hubs, led by **Patna (₹19.29M)**, **Kolkata (₹18.88M)**, and **Bengaluru (₹18.77M)**.
-* **Demographics:** Customer age ranges from 18 to 65 (mean age: 41.4 years). Correlation between age and total spend is negligible ($r = 0.00$), showing that purchasing power is uniform across age groups.
-* **Price & Volume Impact:** Sales volume is strongly driven by unit price ($r = 0.69$) and order quantity ($r = 0.65$).
+The objective of this project is to perform **Exploratory Data Analysis (EDA)** and answer business-focused questions using **Python** and **SQL**.
+
+The project helps identify patterns, trends, and insights from sales data while demonstrating data cleaning, visualization, and business intelligence skills.
 
 ---
 
-## 🛢️ SQL Business Queries & Results
+# 🗂️ Dataset Overview
 
-Below are the key SQL queries written for the dataset schema (`Sales_Dataset`):
+The dataset contains customer sales transactions with fields such as:
 
-### Query 1: Top Product Categories by Revenue
-```sql
-SELECT 
-    Category, 
-    SUM(Total_Sales) AS Revenue
-FROM Sales_Dataset
-GROUP BY Category
-ORDER BY Revenue DESC;
+- Order Date
+- Customer ID
+- Customer Name
+- Age
+- Gender
+- City
+- Product
+- Category
+- Quantity
+- Price
+- Total Sales
+
+### Dataset Summary
+
+| Metric | Value |
+|--------|--------|
+| Total Records | **1000** |
+| Total Columns | **12** |
+| Unique Customers | **947** |
+| Top Category | **Electronics** |
+| Analysis Tools | Python, Pandas, Matplotlib, SQL |
+
+---
+
+# 🛠️ Tools & Technologies
+
+- Python
+- Pandas
+- Matplotlib
+- SQL
+- Excel
+- VS Code
+- GitHub
+
+---
+
+# 📈 Project Workflow
+
+## 1️⃣ Data Cleaning
+
+- Loaded Excel dataset
+- Converted Order Date into datetime format
+- Handled missing values
+- Verified data types
+
+## 2️⃣ Descriptive Statistics
+
+Performed summary analysis including:
+
+- Total Sales
+- Average Sales
+- Total Quantity Sold
+- Customer Distribution
+- Category Distribution
+
+## 3️⃣ Business Questions
+
+The following business questions were solved using Python and SQL.
+
+### Business Question 1
+
+**Top 5 Products by Total Sales**
+
+### Business Question 2
+
+**Monthly Sales Trend**
+
+### Business Question 3
+
+**Top Performing City**
+
+### Business Question 4
+
+**Best Selling Category**
+
+### Business Question 5
+
+**Top Customers by Sales**
+
+### Business Question 6
+
+**Age Group vs Purchasing Behavior**
+
+### Business Question 7
+
+**Gender-wise Sales Comparison**
+
+---
+
+# 📊 Visualizations
+
+The project includes:
+
+- Bar Charts
+- Line Charts
+- Histograms
+- Scatter Plots
+- Correlation Heatmap
+- Category Distribution Charts
+
+---
+
+# 📉 Multivariate Analysis
+
+Relationships explored include:
+
+- Sales vs Quantity
+- Age vs Sales
+- Category vs Revenue
+- Gender vs Total Sales
+
+---
+
+# 📋 Dashboard Mock-up
+
+The proposed dashboard includes:
+
+- 📌 Total Sales KPI
+- 📌 Total Orders
+- 📌 Total Quantity
+- 📌 Top Category
+- 📌 Monthly Sales Trend
+- 📌 City-wise Sales
+- 📌 Top Products
+
+---
+
+# 🔍 Key Insights
+
+- Electronics generated the highest sales.
+- Monthly sales trends reveal business performance over time.
+- Customer purchasing behavior varies across age groups.
+- Top customers contribute significantly to overall revenue.
+- Category-wise analysis helps identify high-performing products.
+
+---
+
+# 📁 Project Structure
+
+```text
+ApexPlanet-EDA/
+│
+├── README.md
+├── ApexPlanet_DataAnalytics_Dataset.xlsx
+├── EDA_Analysis.ipynb
+├── SQL_Queries.sql
+├── graphs/
+│   ├── top_products.png
+│   ├── monthly_sales.png
+│   ├── category_sales.png
+│   └── heatmap.png
+└── dashboard_mockup.png
+
+## 📁 Project Deliverables
+
+### ✅ GitHub Repository
+- EDA Report
+- SQL Queries with outputs
+- Presentation (PPT)
+- README.md
+
+### ✅ LinkedIn Video
+5–7 minute walkthrough covering:
+- Business problem
+- SQL queries
+- Key insights
+- Dashboard design
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+2. Run SQL queries in your database.
+
+3. Open the presentation for insights and dashboard structure.
+
+---
+
+## 🌟 Project Outcome
+This project demonstrates:
+- Strong SQL for data analysis
+- Business-oriented thinking
+- Data storytelling
+- Dashboard planning
+
+---
+
+## 📬 Connect With Me
+- LinkedIn: https://linkedin.com/in/your-profile
+- GitHub: https://github.com/your-username
