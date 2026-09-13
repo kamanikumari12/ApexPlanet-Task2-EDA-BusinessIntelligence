@@ -212,5 +212,5 @@ This project demonstrates:
 ---
 
 ## 📬 Connect With Me
-- LinkedIn: https://linkedin.com/in/your-profile
-- GitHub: https://github.com/your-username
+- LinkedIn:www.linkedin.com/in/kamanikumari
+- GitHub: https://github.com/kamanikumari12
